@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.egg-info/
+build/
+dist/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+
+# MyST / Jupyter Book build outputs
+_build/
+jupyter_execute/
+
+# Draft content — not ready for publication
+book/draft/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Node modules (for any JS tooling)
+node_modules/
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*

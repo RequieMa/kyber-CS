@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: 26e29d4f-1740-4ab7-9426-58f0f2118055
+  title: Kyber CS
+  description: Computer Science, from bits to distributed systems — built for the cybernetics stack
+  authors:
+    - name:
+        literal: RequieMa
+  github: https://github.com/RequieMa/kyber-CS
+  toc:
+    - file: about.md
+    - title: En
+      file: book/en/en-intro.md
+      children:
+        - file: book/en/en-dsa.md
+        - file: book/en/en-timeline.md
+    - title: 中文
+      file: book/zh/zh-intro.md
+      children:
+        - file: book/zh/zh-dsa.md
+        - file: book/zh/zh-timeline.md
+    - title: Support
+      children:
+        - file: about.md
+        - file: contact.md
+        - file: privacy.md
+        - file: terms.md
+site:
+  template: book-theme
+  options:
+    logo_text: Kyber CS
+  actions:
+    - title: En
+      url: /en-intro
+    - title: 中文
+      url: /zh-intro
