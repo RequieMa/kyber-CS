@@ -10,15 +10,59 @@ project:
   toc:
     - file: about.md
     - title: En
-      file: book/en/en-intro.md
+      file: book/en/part0/00-how-to-read.md
       children:
-        - file: book/en/en-dsa.md
-        - file: book/en/en-timeline.md
+        - title: Part 0 · Bird's-Eye — The Descent
+          children:
+            - file: book/en/part0/00-how-to-read.md
+            - file: book/en/part0/01-framing.md
+            - file: book/en/part0/02-software.md
+            - file: book/en/part0/03-os-boundary.md
+            - file: book/en/part0/04-instructions.md
+            - file: book/en/part0/05-digital-logic.md
+            - file: book/en/part0/06-bits-physics.md
+            - file: book/en/part0/07-synthesis.md
+        - title: Part 1 · Software
+          children:
+            - file: book/en/part1/01-paradigms.md
+            - file: book/en/part1/02-oop.md
+            - file: book/en/part1/03-dsa.md
+            - file: book/en/part1/04-languages-compilers.md
+            - file: book/en/part1/05-software-engineering.md
+        - title: Part 2 · Systems
+          children:
+            - file: book/en/part2/01-operating-systems.md
+            - file: book/en/part2/02-networking.md
+            - file: book/en/part2/03-databases.md
+            - file: book/en/part2/04-distributed-systems.md
+        - title: Part 3 · Hardware
+          children:
+            - file: book/en/part3/01-architecture.md
+            - file: book/en/part3/02-digital-logic.md
+            - file: book/en/part3/03-theory-of-computation.md
+            - file: book/en/part3/04-information-theory.md
+        - title: Appendices
+          children:
+            - file: book/en/appendix/a-timeline.md
+            - file: book/en/appendix/b-donut-walkthrough.md
+            - file: book/en/appendix/c-course-tracks.md
+            - file: book/en/appendix/d-further-reading.md
     - title: 中文
-      file: book/zh/zh-intro.md
+      file: book/zh/part0/00-how-to-read.md
       children:
-        - file: book/zh/zh-dsa.md
-        - file: book/zh/zh-timeline.md
+        - title: Part 0 · 鸟瞰——下降
+          children:
+            - file: book/zh/part0/00-how-to-read.md
+            - file: book/zh/part0/01-framing.md
+            - file: book/zh/part0/02-software.md
+            - file: book/zh/part0/03-os-boundary.md
+            - file: book/zh/part0/04-instructions.md
+            - file: book/zh/part0/05-digital-logic.md
+            - file: book/zh/part0/06-bits-physics.md
+            - file: book/zh/part0/07-synthesis.md
+        - title: Appendices
+          children:
+            - file: book/zh/appendix/a-timeline.md
     - title: Support
       children:
         - file: about.md
